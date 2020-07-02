@@ -33,7 +33,7 @@ const char* mqttUser = ""; //Enter MQTT username
 const char* mqttPassword = ""; //Enter MQTT password
 
 // Desired MQTT Messages
-const char* topics[] = {"tasmota1/cmnd/Power", "tasmota1/cmnd/Power", "tasmota1/cmnd/Power", "tasmota1/cmnd/Power"};
+const char* topics[] = {"tasmota1/cmnd/Power", "tasmota2/cmnd/Power", "tasmota3/cmnd/Power", "tasmota4/cmnd/Power"};
 const char* messages[] = {"TOGGLE", "TOGGLE", "TOGGLE", "TOGGLE"};
 
 // Minimum LED lit time in ms for visuals
