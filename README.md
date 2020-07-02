@@ -22,7 +22,7 @@ An Arduino sketch to connect an ESP8266 (specifically tested with a NodeMCU boar
  - Arduino IDE set up for ESP8266 (https://randomnerdtutorials.com/how-to-install-esp8266-board-arduino-ide/)
  - PubSubClient installed into arduino IDE (https://www.baldengineer.com/mqtt-tutorial.html/installing-pubsubclient-for-arduino)
  - An ESP8266 on some development board with a button and LED wired as below:
-![circuit diagram](circuit.png Circuit Diagram)
+![circuit diagram](circuit.png "Circuit Diagram")
 ## Setup 
 Just wire up the circuit, ideally with a nice button such as (https://www.amazon.co.uk/EG-Starts-Illuminated-Buttons-Microswitch/dp/B01LZMANZ7/) (though note the LED in this is 12V< so should be swapped with a 3V3 one or use an external supply). Upload the project, pop in a box with a power cable or battery pack and you are good to go.
 
